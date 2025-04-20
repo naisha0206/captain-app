@@ -1,0 +1,59 @@
+/* Ensure the body covers the whole viewport */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Makes the body take up the full height of the viewport */
+  background-image: url('https://i.imgur.com/yzMvWa3.jpeg'); /* Direct Imgur link */
+  background-size: cover; /* Ensure the image covers the entire page */
+  background-position: center center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+/* Chat container styles */
+.chat-container {
+  width: 90%;
+  max-width: 500px;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  background: #fff; /* White background for the content */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add some shadow for better visibility */
+}
+
+/* Chat box styles */
+.chat-box {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #addffe; /* Light blue background for the chat box */
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+/* Message styles */
+.message {
+  margin: 10px 0;
+  text-align: left;
+}
+
+/* User message style */
+.user {
+  font-weight: bold;
+  color: #000000; /* Black for user messages */
+}
+
+/* Bot message style */
+.bot {
+  font-weight: bold;
+  color: #3c79ff; /* Blue for bot messages */
+}
+
+/* Controls section */
+.controls {
+  margin-top: 10px;
+}
